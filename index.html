@@ -1,0 +1,162 @@
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NavBar</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/skills.css" />
+    <link rel="stylesheet" href="CSS/experiences.css" />
+    <link rel="stylesheet" href="CSS/contacto.css" />
+
+    <script
+      src="https://kit.fontawesome.com/507c453474.js"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="Js/index.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <img src="Img/profile.jpg" alt="foto-perfil" class="header-foto" />
+        <a href="#" class="logo nav-link">Luis Enrique Chinea Mujica</a>
+        <button class="nav-toggle" aria-label="Abrir Menu">
+          <i class="fa-solid fa-bars toggle-button"></i>
+          <i class="fa-solid fa-xmark close-button"></i>
+        </button>
+        <ul class="nav-menu">
+          <li class="nav-menu-item">
+            <a href="#profile" class="nav-menu-link nav-link selected"
+              >Perfil</a
+            >
+          </li>
+          <li class="nav-menu-item">
+            <a href="#experiences" class="nav-menu-link nav-link"
+              >Experiencia</a
+            >
+          </li>
+          <li class="nav-menu-item">
+            <a href="#skills" class="nav-menu-link nav-link">Habilidades</a>
+          </li>
+          <li class="nav-menu-item">
+            <a href="#contacto" class="nav-menu-link nav-link">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="horizontal-vertical_paddin">
+      <section class="profile" id="profile">
+        <div class="profile-info">
+          <h1 class="profile-title">
+            Hola, soy <br />
+            Luis Enrique Chinea Mujica
+          </h1>
+          <p class="profile-details">
+            Soy un apasionado de la programacion. He trabajado con distintos
+            lenguajes y tecnologías a los largo de 9 años jajaja
+          </p>
+          <button class="profile-btn" type="submit">
+            <i class="fa-solid fa-file-arrow-down"></i> Descargar CV
+          </button>
+        </div>
+        <div class="profile-foto_container">
+          <img class="profile-foto" src="Img/profile.jpg" alt="profile-img" />
+          <div class="profile-foto_line"></div>
+        </div>
+      </section>
+    </div>
+    <section class="experiences" id="experiences">
+      <img src="Img/wave.svg" alt="wave" class="wave" />
+
+      <div class="experiences-body">
+        <h2 class="experiences-title">Experiencia</h2>
+        <div class="experiences-grid">
+          <div class="empty"></div>
+          <div class="line"></div>
+          <div class="experiencie">
+            <div class="experiences-date">2020-2021</div>
+            <div class="experiences-company">Facebook 1</div>
+            <div class="experiences-position">Senior developer jaja</div>
+            <div class="experiences-description">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Doloremque quaerat eaque hic iste odio, impedit perspiciatis ut
+              officia neque saepe architecto quasi quo odit aliquam dolore dolor
+              et! Quia aut voluptates explicabo eos quo, placeat ex aspernatur
+              eius consequuntur! Hic fugit distinctio accusamus praesentium unde
+              dolor, sequi mollitia delectus animi.
+            </div>
+          </div>
+
+          <div class="experiencie">
+            <div class="experiences-date">2020-2021</div>
+            <div class="experiences-company">Facebook 2</div>
+            <div class="experiences-position">Senior developer jaja</div>
+            <div class="experiences-description">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Doloremque quaerat eaque hic iste odio, impedit perspiciatis ut
+              officia neque saepe architecto quasi quo odit aliquam dolore dolor
+              et! Quia aut voluptates explicabo eos quo, placeat ex aspernatur
+              eius consequuntur! Hic fugit distinctio accusamus praesentium unde
+              dolor, sequi mollitia delectus animi.
+            </div>
+          </div>
+
+          <div class="line"></div>
+          <div class="empty"></div>
+          <div class="empty"></div>
+          <div class="line"></div>
+          <div class="experiencie">
+            <div class="experiences-date">2020-2021</div>
+            <div class="experiences-company">Facebook 3</div>
+            <div class="experiences-position">Senior developer jaja</div>
+            <div class="experiences-description">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Doloremque quaerat eaque hic iste odio, impedit perspiciatis ut
+              officia neque saepe architecto quasi quo odit aliquam dolore dolor
+              et! Quia aut voluptates explicabo eos quo, placeat ex aspernatur
+              eius consequuntur! Hic fugit distinctio accusamus praesentium unde
+              dolor, sequi mollitia delectus animi.
+            </div>
+          </div>
+
+          <div class="experiencie">
+            <div class="experiences-date">2020-2021</div>
+            <div class="experiences-company">Facebook 4</div>
+            <div class="experiences-position">Senior developer jaja</div>
+            <div class="experiences-description">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Doloremque quaerat eaque hic iste odio, impedit perspiciatis ut
+              officia neque saepe architecto quasi quo odit aliquam dolore dolor
+              et! Quia aut voluptates explicabo eos quo, placeat ex aspernatur
+              eius consequuntur! Hic fugit distinctio accusamus praesentium unde
+              dolor, sequi mollitia delectus animi.
+            </div>
+          </div>
+          <div class="line"></div>
+          <div class="empty"></div>
+        </div>
+      </div>
+      <img src="Img/wave.svg" alt="wave" class="wave wave_botton" />
+    </section>
+    <div class="horizontal-vertical_paddin">
+      <section class="skills" id="skills">
+        <h2 class="skills-title">Habilidades</h2>
+        <ul class="skills-list">
+          <li class="skills-skill">HTML</li>
+          <li class="skills-skill">CSS</li>
+          <li class="skills-skill">JavaScript</li>
+          <li class="skills-skill">React</li>
+          <li class="skills-skill">NodeJS</li>
+          <li class="skills-skill">Python</li>
+        </ul>
+      </section>
+    </div>
+
+    <section class="contacto" id="contacto">
+      <img src="Img/wave.svg" alt="wave" class="wave wave-contacto" />
+      <div class="contacto-body">
+        <h1 class="contacto-title">Contacto</h1>
+      </div>
+    </section>
+  </body>
+</html>

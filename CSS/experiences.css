@@ -1,0 +1,110 @@
+.experiences{
+    display: flex;
+    flex-direction: column;   
+}
+.experiences-body{
+    background-color: #000b76;
+    color: aliceblue;
+    position: relative;
+    top: -100px;
+    width: 100%;  
+    z-index: 1;    
+}
+.experiences-title{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 20px;
+}
+.wave{
+    width: 100%;
+    position: relative;
+    top: -60px;
+}
+.wave_botton{
+    transform: scaleY(-1);
+    position: relative;
+    top: -102px;
+}
+.experiences-grid{
+    text-align: left;
+    margin: 0 auto;  
+    padding: 70;  
+}
+.experiences-date{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgb(237, 209, 138);
+    margin-top: 30px;
+}
+.experiences-company{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+.experiences-position{
+    font-weight: bold;
+    font-size: 1rem; 
+
+}
+.experiences-description{
+    font-size: 0.8rem;
+    max-width: 500px;   
+    margin: 5px 0; 
+}
+.experience{
+    margin: 0 auto;    
+    max-width: 500px;
+    
+}
+@media (min-width:950px){
+
+    .experiences-title{
+        font-size: 2.5rem;
+    }
+    .experiences-grid{
+        gap: 20px 50px;
+        padding: 70px;
+        max-width: 1200px;
+    }
+    .experiences-date{
+        font-size: 2rem;
+    }
+    .experiences-company{
+        font-size: 1.5rem;
+    }
+    .experiences-position{
+        font-size: 1.2rem;
+    }
+    .experiences-description{
+        font-size: 1rem;
+    }
+    .experiences-grid{
+        display: grid;
+        grid-template-columns: auto 2px auto;
+    }
+    .line{
+        background-color: aliceblue;
+        position: relative;        
+    }
+    .line::after,
+    .line::before{
+        content: "";
+        height: 20px;
+        width: 20px;
+        background-color: aliceblue;
+        border-radius: 50%;
+        display: block;
+        position: absolute;
+        top: -20px;
+        left: -9px;
+    }
+    .line::after{
+        top: 100%;
+    }
+    .empty{      
+        text-align: center;
+    }
+}
